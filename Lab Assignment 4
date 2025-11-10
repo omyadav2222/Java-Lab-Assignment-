@@ -1,7 +1,7 @@
 
 // Superclass
 class BankAccount {
-    String accountHolder;
+    String accountHolder; 
     double balance;
 
     // Constructor
