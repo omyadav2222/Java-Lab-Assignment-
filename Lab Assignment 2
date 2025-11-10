@@ -8,7 +8,7 @@ public class Hotel {
     public Hotel() {
         rooms = new boolean[FLOORS][ROOMS_PER_FLOOR];
        
-    }
+    }     
 
     public boolean bookRoom(int floor, int room) {
         if (floor < 1 || floor > FLOORS || room < 1 || room > ROOMS_PER_FLOOR) {
